@@ -47,13 +47,14 @@ Additional properties are allowed in the root JSON document, as long as they do 
     "@pagination": {
         "@offset": {
             "@page": 1,
-            "@limit": 10,
+            "@pageSize": 10,
             "@total": 150
         },
         "@cursor": {
             "@previous": 123
             "@current": 234,
-            "@next": 345
+            "@next": 345,
+            "@pageSize": 10,
         }
     }
 }
